@@ -12,6 +12,7 @@ namespace learning
 {
     public partial class Form2 : Form
     {
+
         public Form2(string a, string b)
         {
             InitializeComponent();
@@ -32,5 +33,6 @@ namespace learning
             f1.ShowDialog();
             this.Close();
         }
+
     }
 }

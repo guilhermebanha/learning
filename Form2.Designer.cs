@@ -28,23 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.OrangeRed;
-            panel1.Location = new Point(212, 126);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(355, 230);
-            panel1.TabIndex = 0;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(panel1);
             Name = "Form2";
             Text = "Form2";
             FormClosed += Form2_FormClosed;
@@ -53,6 +43,6 @@
 
         #endregion
 
-        private Panel panel1;
+        private RangeSlider rangeSlider1;
     }
 }
